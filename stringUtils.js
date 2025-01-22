@@ -8,7 +8,6 @@ console.log(capitalizeFirstLetter("my function")); // Вывод: "My function"
 console.log(capitalizeFirstLetter("")); // Вывод: ""
 
 
-
 // Метод обрезает строку до указанной длины, добавляет троеточие, если строка длиннее
 function truncateStringWithEllipsis(str, limit) {
   if (str.length <= limit) return str;
@@ -26,11 +25,8 @@ function truncateStringWithEllipsis(str, limit) {
   return truncated + "...";
 }
 // Пример использования
-console.log(truncateStringWithEllipsis("Очень длинная строка, намного длиннее допустимого.", 40));
-// Вывод: "Очень длинная строка, намного длиннее,..."
-console.log(truncateStringWithEllipsis("Короткая строка.", 40));
-// Вывод: "Короткая строка."
-
+console.log(truncateStringWithEllipsis("Очень длинная строка, намного длиннее допустимого.", 40)); // Вывод: "Очень длинная строка, намного длиннее,..."
+console.log(truncateStringWithEllipsis("Короткая строка.", 40)); // Вывод: "Короткая строка."
 
 
 // Функция проверяет, является ли одна строка подстрокой другой
